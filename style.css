@@ -1,0 +1,95 @@
+body {
+    background-image: url("assets/images/masjid.jpg");
+    background-size: cover;
+    font-family: "Katibeh", serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-image: url("assets/images/tasbih.jpg");
+    max-width: 800px;
+    border: 2px solid #adcbff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: 2px solid #adcbff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border-color 200ms ease-in-out;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #001c4c;
+    font-family: "Katibeh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+#save-btn {
+    background: #001c4c;
+    font-family: "Katibeh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+#save-el {
+    color: white;
+    font-family: "Katibeh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.katibeh-regular {
+    font-family: "Katibeh", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover {
+    background: #adcbff;
+    color: #001c4c;
+    border-color: #001c4c;
+}
+
+#increment-btn:hover {
+    background: #adcbff;
+    color: #001c4c;
+    border-color: #001c4c;
+}
+
+#save-btn:hover {
+    background: #adcbff;
+    color: #001c4c;
+    border-color: #001c4c;
+}
